@@ -159,7 +159,7 @@ input:first-of-type:focus {
 @media screen and (max-width: 780px) {
   .footer .footer_wrap {
     width: 100%;
-    padding: 0 20px;
+    padding: 0 10px;
     box-sizing: border-box;
   }
   .footer .footer_wrap .footer_box {
@@ -173,6 +173,18 @@ input:first-of-type:focus {
     padding: 5px 15px;
     border-bottom: 1px solid #c4c4c4;
   }
+  .fluid_four {
+    display: none;
+  }
+  .fluid_five {
+    display: none;
+  }
+  .fluid {
+    display: none;
+  }
+  header .header_logo {
+    padding: 0;
+  }
 
   /* ハンバーガーメニュー */
   #hamburger {
@@ -181,7 +193,7 @@ input:first-of-type:focus {
     right: 10px;
     top: 10px;
     position: absolute;
-    border-top: solid 4px #fff;
+    border-top: solid 4px #000;
     cursor: pointer;
     z-index: 100;
   }
@@ -190,7 +202,7 @@ input:first-of-type:focus {
     content: "";
     display: block;
     width: 25px;
-    background: #fff;
+    background: #000;
     height: 4px;
     position: absolute;
     right: 0;
@@ -252,5 +264,14 @@ input:first-of-type:focus {
   body.nav-open header #hamburger::after {
     top: 9px;
     transform: rotate(45deg);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    padding: 10px 0;
+  }
+  .footer .footer_wrap .footer_box {
+    width: 80%;
   }
 }
