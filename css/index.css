@@ -30,7 +30,7 @@ header .color {
 }
 .fluid {
   position: absolute;
-  z-index: -1;
+  z-index: -10;
   top: 0;
   right: 0;
   margin-top: -150px;
@@ -199,7 +199,7 @@ header .color {
 }
 .fluid_two {
   position: absolute;
-  z-index: -1;
+  z-index: -10;
   top: 0;
   left: 0;
   box-shadow: 0 2px 30px #999;
@@ -235,7 +235,7 @@ header .color {
 }
 .fluid_five {
   position: absolute;
-  z-index: -1;
+  z-index: -10;
   bottom: 0;
   right: 0;
   box-shadow: 0 2px 30px #999;
@@ -327,7 +327,7 @@ header .color {
 
 .fluid_three {
   position: absolute;
-  z-index: -1;
+  z-index: -10;
   top: 0;
   left: 0;
   margin-left: -300px;
@@ -340,7 +340,7 @@ header .color {
 }
 .fluid_four {
   position: absolute;
-  z-index: -1;
+  z-index: -10;
   bottom: 0;
   right: 0;
   margin-right: -300px;
@@ -440,7 +440,7 @@ header .color {
 }
 .fluid_six {
   position: absolute;
-  z-index: -1;
+  z-index: -10;
   bottom: 0;
   margin-left: -320px;
   box-shadow: 0 2px 30px #999;
