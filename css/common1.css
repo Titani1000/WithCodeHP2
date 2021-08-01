@@ -185,6 +185,9 @@ input:first-of-type:focus {
   header .header_logo {
     padding: 0;
   }
+  header .header_logo img {
+    width: 120px;
+  }
 
   /* ハンバーガーメニュー */
   #hamburger {
