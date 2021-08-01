@@ -163,20 +163,14 @@
 }
 
 .acces {
-  margin-top: 50px;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-shadow: 0 2px 10px #999;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
 }
-.map {
-  width: 640px;
-  height: 550px;
-}
-
-@media screen and (max-width: 480px) {
-  .map {
-    width: 310px;
-    height: 310px;
-  }
-  
+.acces iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 90%;
+  width: 90%;
 }
