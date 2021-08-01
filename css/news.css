@@ -169,7 +169,8 @@
 }
 .info dt {
   padding-bottom: 0;
-  width: 6em;
+  width: 100px;
+  border-bottom: 2px solid #ccc;
 }
 @media screen and (max-width: 780px) {
 .info dt {
@@ -178,7 +179,7 @@
 }
 .info dd {
   margin-left: 0.5em;
-  text-align: right;
+  text-align: left;
 }
 
 .news_bg img {
