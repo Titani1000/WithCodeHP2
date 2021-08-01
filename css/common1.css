@@ -29,6 +29,9 @@ li {
   from {transform: rotate(0deg);}
   from {transform: rotate(360deg);}
 }
+h6 {
+  line-height: 1.5;
+}
 .catch_copy {
   padding-top: 200px;
 }
