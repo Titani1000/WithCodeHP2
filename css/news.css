@@ -173,7 +173,22 @@
   width: 100px;
   border-bottom: 2px solid #ccc;
 }
+
+.sarch input:first-of-type:focus {
+  background: linear-gradient( #fff, #fabea7);
+}
+
 @media screen and (max-width: 780px) {
+  header .navbar {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background: linear-gradient(#fff, #fabea7);
+  }
 .info dt {
   clear: left;
   float: left;

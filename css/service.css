@@ -235,7 +235,21 @@ table th {
 table thead tr{
   background-color: #aeb5dc;
 }
+
+.sarch input:first-of-type:focus {
+  background: linear-gradient( #fff, #aeb5dc);
+}
 @media screen and (max-width: 780px) {
+  header .navbar {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background: linear-gradient(#fff, #aeb5dc);
+  }
   table {
     border: 0;
     width: 90%
