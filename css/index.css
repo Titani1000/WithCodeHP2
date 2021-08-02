@@ -27,6 +27,7 @@ header .color {
   width: 400px;
   height: 400px;
   right: 10%;
+  z-index: -5;
 }
 .fluid {
   position: absolute;

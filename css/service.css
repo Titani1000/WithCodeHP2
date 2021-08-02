@@ -13,6 +13,7 @@ header .border {
   padding-top: 100px;
   top: 0;
   right: 0;
+
 }
 .service_inner {
   padding-top: 200px;
@@ -40,6 +41,7 @@ header .border {
   width: 500px;
   height: 400px;
   right: 5%;
+  z-index: -5;
 }
 .fluid {
   position: absolute;
