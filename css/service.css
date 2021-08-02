@@ -291,15 +291,22 @@ table thead tr{
   }
 
   .service_bg img {
-    width: 300px;
-    height: 300px;
-    z-index: -10;
+    width: 250px;
+    height: 250px;
+    z-index: -5;
   }
   .fluid {
-    width: 500px;
-    height: 500px;
+    display: none;
   }
-
+  .fluid_two {
+    display: none;
+  }
+  .service {
+    width: 90%;
+  }
+  .mentor {
+    width: 90%;
+  }
   .mentor_member {
     width: 80%;
   }

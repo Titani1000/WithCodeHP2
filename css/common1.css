@@ -164,7 +164,10 @@ input:first-of-type:focus {
     width: 100%;
     padding: 0 10px;
     box-sizing: border-box;
-    text-align: center;
+    text-align: left;
+  }
+  section .wrapper {
+    padding: 0;
   }
   .footer .footer_wrap .footer_box {
   width: 100%;
