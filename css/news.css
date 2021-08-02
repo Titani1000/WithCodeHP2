@@ -162,11 +162,12 @@
   overflow: auto;
   width: 90%;
   height: 10em;
-  background-color: #FFFFF0;
+  background: linear-gradient(#fff, #FFDBC9);
 }
 .info dl {
   padding: 0.5em 0;
   border-bottom: 1px solid #ccc;
+
 }
 .info dt {
   padding-bottom: 0;
@@ -198,6 +199,9 @@
   text-align: left;
 }
 
+.news_inner {
+  margin-left: 10px;
+}
 .news_bg img {
   width: 200px;
   height: 200px;
@@ -206,8 +210,20 @@
 .wrapper {
   padding: 0;
 }
+.news_title {
+  text-align: center;
+}
+.news_title .line {
+  margin: 0 auto;
+}
 .news_title h1 {
   font-size: 30px;
+  display: inline-block;
+  border-right: 8px solid #f69679;
+  padding: 0 10px;
+}
+.news_title h2 {
+  padding: 10px 0;
 }
 .fluid {
   display: none;
@@ -216,7 +232,7 @@
   display: none;
 }
 .card_wrap {
-  justify-content: left;
+  justify-content: center;
 }
 .card {
   width: 90%;

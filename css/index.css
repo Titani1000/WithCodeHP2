@@ -504,11 +504,11 @@ header .color {
     width: 90%;
   }
   .about_inner {
-    text-align: left;
+    text-align: center;
   }
   .about_inner .line {
-    margin: 0;
     width: 30px;
+    margin: 0 auto;
   }
   .about_inner h1 {
     font-size: 30px;
@@ -517,17 +517,20 @@ header .color {
     font-size: 20px;
   }
   .about_inner p {
-    margin: 0;
+    margin: 0 auto;
+    width: 90%;
+    border-right:  8px solid #8f64ab;
   }
   .about_box {
-    text-align: left;
+    text-align: center;
   }
   .about_tag .about_list {
-    justify-content: left;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-bottom: 10px
   }
   .about_tag1 {
-    padding: 10px 20px;
+    padding: 10px 25px;
     margin: 10px;
   }
   .about_tag2 {
@@ -540,10 +543,10 @@ header .color {
     width: 90%;
   }
   .news_inner {
-    text-align: left;
+    text-align: center;
   }
   .news_inner .line {
-    margin: 0;
+    margin: 0 auto;
     width: 30px;
   }
   .news_inner h1 {
@@ -553,13 +556,13 @@ header .color {
     font-size: 20px;
   }
   .card_wrap {
-    display: block;
+    margin: 0 auto;
   }
   .card {
-    width: 300px;
+    width: 90%;
   }
   .card img {
-    width: 270px;
+    width: 80%;
   }
   .text a {
     font-size: 15px;
@@ -573,7 +576,7 @@ header .color {
     margin-bottom: 100px;
   }
   .service_inner {
-    text-align: left;
+    text-align: center;
   }
   .service_inner h1 {
     font-size: 30px;
@@ -582,22 +585,33 @@ header .color {
     font-size: 20px;
   }
   .service_inner .line {
-    margin: 0;
+    margin: 0 auto;
     width: 30px;
   }
   .service_list {
     display: block;
   }
   .service_item {
-    width: 80%;
-    height: 320px;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
     display: block;
+    padding: 20px 0;
+  }
+  .service_img img {
+    width: 80%;
+    padding: 20px 0;
+  }
+  .service1 {
+    margin-bottom: 20px;
   }
   .service_item p {
     margin: 0;
     font-size: 14px;
+    text-align: center;
   }
   .service_btn {
+    margin-top: 30px;
     padding: 10px 30px;
   }
 
@@ -605,7 +619,7 @@ header .color {
     width: 90%;
   }
   .contact_inner {
-    text-align: left;
+    text-align: center;
   }
   .contact_inner h1 {
     font-size: 25px;
@@ -614,12 +628,12 @@ header .color {
     font-size: 15px;
   }
   .contact_inner .line {
-    margin: 0;
+    margin: 0 auto;
     width: 30px;
   }
   .contact_item {
-    margin: 0;
-    width: 65%;
+    margin: 0 auto;
+    width: 80%;
   }
   .contact_txt {
     line-height: 1.2;
@@ -645,13 +659,13 @@ header .color {
   .contact-form .form textarea, 
   .contact-form .form select {
     width: 80%;
-    margin-left: -10px;
+    margin: 0 auto;
   }
 }
 
 
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .card {
     width: 80%;
   }
@@ -662,4 +676,4 @@ header .color {
     display: block;
   }
 
-}
+} */

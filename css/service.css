@@ -253,7 +253,7 @@ table thead tr{
   }
   table {
     border: 0;
-    width: 90%
+    width: 100%;
   }
   table th{
     background-color: #aeb5dc;
@@ -320,10 +320,34 @@ table thead tr{
   .circle_list li {
     margin:  50px 0;
   }
+  .top {
+    text-align: center;
+  }
+  .top .line {
+    margin: 0 auto;
+  }
   .top h1 {
     font-size: 30px;
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 8px solid #aeb5dc;
+  }
+  .top h2 {
+    padding: 10px 0;
+  }
+  .mentor_title {
+    text-align: center;
+  }
+  .mentor_title .line {
+    margin: 0 auto;
   }
   .mentor_title h1 {
     font-size: 30px;
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 8px solid #aeb5dc;
+  }
+  .mentor_title h2 {
+    padding: 10px 0;
   }
 }

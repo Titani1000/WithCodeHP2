@@ -96,7 +96,7 @@
   font-size: 50px;
   border-left: 8px solid #b0c865;
   padding-left: 10px;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 .top h2 {
   font-size: 20px;
@@ -140,10 +140,23 @@
     background: linear-gradient(#fff, #e1eec1);
   }
   .top_box {
-    width: 80%;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .top {
+    text-align: center;
+  }
+  .top .line {
+    margin:  0 auto;
   }
   .top h1 {
     font-size: 35px;
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 8px solid #b0c865;
+  }
+  .top h2 {
+    padding: 10px 0;
   }
   .top_box,
   .top_box tr,
@@ -190,5 +203,5 @@
   left: 0;
   top: 0;
   height: 90%;
-  width: 90%;
+  width: 100%;
 }
