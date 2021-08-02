@@ -164,17 +164,17 @@ input:first-of-type:focus {
     width: 100%;
     padding: 0 10px;
     box-sizing: border-box;
+    text-align: center;
   }
   .footer .footer_wrap .footer_box {
   width: 100%;
   }
-  .footer .footer_wrap .footer_box ul {
-    border-top: 1px solid #c4c4c4;
-  }
   .footer .footer_wrap .footer_box ul li a {
     display: block;
     padding: 5px 15px;
-    border-bottom: 1px solid #c4c4c4;
+  }
+  .sarch {
+    margin: 0 auto;
   }
   .fluid_four {
     display: none;

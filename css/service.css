@@ -229,6 +229,7 @@ table td {
   font-weight: bold;
   border-right: 1px solid #bbb;
 }
+
 table th {
   font-size: 20px;
 }
@@ -273,11 +274,12 @@ table thead tr{
   table td {
     border-bottom: 1px solid #bbb;
     display: block;
-    font-size: 20px;
     text-align: right;
-    position: relative;
     border-right: none;
     text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.2;
   }
   table td::before {
     content: attr(data-label);
@@ -292,7 +294,6 @@ table thead tr{
     width: 300px;
     height: 300px;
     z-index: -10;
-    opacity: .7;
   }
   .fluid {
     width: 500px;

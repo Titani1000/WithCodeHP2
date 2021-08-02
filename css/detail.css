@@ -150,6 +150,7 @@
   .top_box td,
   .top_box th {
     display: block;
+    text-align: center;
   }
   .top_box th {
     width: auto;
@@ -167,7 +168,6 @@
     width: 300px;
     height: 300px;
     z-index: -10;
-    opacity: .7;
   }
   .fluid {
     width: 500px;
